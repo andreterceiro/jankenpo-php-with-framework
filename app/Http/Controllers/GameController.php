@@ -8,8 +8,9 @@ use App\Models\Game;
 class GameController extends Controller
 {
     /**
-     * Alow user to select an option
+     * Allow user to select an option
      * 
+     * @access public
      * @return undefined
      */
     public function select() {
@@ -17,8 +18,9 @@ class GameController extends Controller
     }
 
     /**
-     * See who win and show the winner
+     * See who is the winner and shows the winner
      * 
+     * @access public
      * @return undefined
      */
     public function result() {
@@ -38,6 +40,4 @@ class GameController extends Controller
             ]
         );
     }
-
-
 }

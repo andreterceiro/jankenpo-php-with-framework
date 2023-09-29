@@ -14,6 +14,8 @@ class Game extends Model
      * 
      * @static
      * 
+     * @access public
+     * 
      * @return string
      */
     public static function getStringComputerOption() {
@@ -32,6 +34,8 @@ class Game extends Model
      * against the computer option
      * 
      * @static
+     * 
+     * @access public
      * 
      * @return string
      */

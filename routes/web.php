@@ -14,6 +14,9 @@ use App\Http\Controllers\GameController;
 |
 */
 
+Route::get('/', function () {
+    return (new GameController)->select();
+});
 Route::get('/game/select', function () {
     return (new GameController)->select();
 });
